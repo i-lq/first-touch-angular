@@ -1,0 +1,22 @@
+.tTbmd {
+    height: 2em;
+    padding: 0 1em;
+    margin: 0;
+    display: flex;
+    background: linear-gradient(
+      45deg,
+      rgb(var(--f1393)),
+      rgb(var(--f93lW)));
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(var(--vVpc));
+    border-radius: 1em;
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.tTbmd>p.xJsk {
+    margin: 0 0 0 8px;
+}

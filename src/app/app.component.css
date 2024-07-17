@@ -1,0 +1,30 @@
+app-header {
+    width: 100vw;
+}
+
+app-main {
+    width: 100vw;
+    min-height: 70vh;
+    height: -webkit-fill-available;
+    margin: 0;
+    padding: 4em 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+app-footer {
+    width: calc(100vw - 3em);
+    height: 13em;
+    margin: 0 0 16px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    background: rgb(var(--vfec));
+    border-radius: 1em;
+    border: solid 2px rgb(var(--vVpc) / 25%);
+}

@@ -1,0 +1,24 @@
+.joK8x {
+    margin: 0 4px;
+    height: 2em;
+    width: fit-content;
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background .25s;
+    color: rgb(var(--vVpc));
+}
+
+.joK8x:hover {
+    background: rgb(var(--f1393));
+}
+
+.joK8x>p {
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+}

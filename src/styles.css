@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --nbpn: 12 12 12;
+    --bJRS: 17 17 17;
+    --vfec: 20 20 20;
+    --v40b: 15 15 15;
+    --vVpc: 255 255 255;
+    --f1393: 220 47 2;
+    --f93lW: 208 0 0;
+    --fpqP8: 244 140 6;
+    --b925: 109 104 117;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: rgb(var(--bJRS));
+    color: rgb(var(--vVpc));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: 'Rubik';
+    overflow: hidden auto;
+    scrollbar-gutter: stable;
+}
+
+app-root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(var(--vVpc) / 50%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(var(--vVpc));
+}
